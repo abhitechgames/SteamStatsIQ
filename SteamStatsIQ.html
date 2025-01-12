@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Stats IQ</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #1b1b1b;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 600px;
+      background-color: #2a2a2a;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .header img {
+      width: 32px;
+      height: 32px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #00a6ff;
+      margin: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    ul {
+      text-align: left;
+      margin: 20px auto;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    ul li {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 10px;
+      color: #ddd;
+    }
+
+    ul li::before {
+      content: "✅ ";
+      color: #00a6ff;
+    }
+
+    .options {
+      margin-top: 20px;
+    }
+
+    .options a {
+      display: inline-block;
+      background-color: #00a6ff;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .options a:hover {
+      background-color: #008bcc;
+    }
+
+    .review-box {
+      margin-top: 30px;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .review-box a {
+      color: #00a6ff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .review-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon.png" alt="Steam Stats Icon">
+      <h1>Steam Stats IQ</h1>
+    </div>
+
+    <p>
+      Steam Stats IQ provides insights into Steam game statistics with features like:
+    </p>
+
+    <ul>
+      <li>Real-time follower counts.</li>
+      <li>Concurrent player data (CCU).</li>
+      <li>Revenue estimates.</li>
+      <li>Average playtime insights.</li>
+      <li>Price and sales statistics.</li>
+    </ul>
+
+    <div class="options">
+      <a href="https://ko-fi.com/abhitechgames" target="_blank">Support on Ko-fi</a>
+      <a href="https://github.com/your-repo" target="_blank">View Source Code</a>
+    </div>
+
+    <div class="review-box">
+      <a href="https://chrome.google.com/webstore/detail/EXTENSION_ID/reviews" target="_blank">
+        ⭐ Leave a review for this extension
+      </a>
+    </div>
+  </div>
+</body>
+</html>

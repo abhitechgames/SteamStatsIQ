@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Steam Stats IQ",
+  "version": "1.0",
+  "description": "A Chrome extension to analyze and monitor Steam game statistics.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://store.steampowered.com/*",
+    "https://api.steampowered.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "options_ui": {
+  "page": "SteamStatsIQ.html",
+  "open_in_tab": true
+}
+}

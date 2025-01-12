@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Stats IQ</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #1b1b1b;
+      color: white;
+      margin: 0;
+      padding: 15px;
+      width: 400px;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .title img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .title h1 {
+      font-size: 24px;
+      color: #00a6ff;
+      margin: 0;
+    }
+
+    #gameName {
+      font-size: 18px;
+      color: white;
+      margin: 10px 0 0 0;
+    }
+
+    #gameHeader {
+      width: 90%; 
+      height: auto;
+      border-radius: 8px;
+      margin-top: 15px;
+      margin-bottom: 20px; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+
+    .stat {
+      background-color: #2a2a2a;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .stat .label {
+      color: #00a6ff;
+      font-weight: bold;
+    }
+
+    .stat .value {
+      float: right;
+      color: white;
+      font-weight: bold;
+    }
+
+    #footer {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    #footer button,
+    #footer a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      background-color: #00a6ff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    #footer a {
+      text-decoration: none;
+    }
+
+    #footer button img,
+    #footer a img {
+      width: 16px;
+      height: 16px;
+    }
+
+    #footer button:hover,
+    #footer a:hover {
+      background-color: #008bcc;
+    }
+
+    #made-by {
+      font-size: 10px;
+      color: white;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="header">
+      <div class="title">
+        <img src="icon.png" alt="Steam Stats Icon">
+        <h1>Steam Stats IQ</h1>
+      </div>
+      <h2 id="gameName">Loading Game Name...</h2>
+    </div>
+    <div id="stats">
+      <img id="gameHeader" src="placeholder.png" alt="Game Header">
+      <div id="averageRevenue" class="stat">
+        <span class="label">Average Revenue:</span>
+        <span class="value" id="revenueValue">Loading...</span>
+      </div>
+      <div id="averagePrice" class="stat">
+        <span class="label">Average Price:</span>
+        <span class="value" id="priceValue">Loading...</span>
+      </div>
+      <div id="copiesSold" class="stat">
+        <span class="label">Copies Sold:</span>
+        <span class="value" id="copiesValue">Loading...</span>
+      </div>
+      <div id="averagePlaytime" class="stat">
+        <span class="label">Average Playtime (hrs):</span>
+        <span class="value" id="playtimeValue">Loading...</span>
+      </div>
+      <div id="ccu" class="stat">
+        <span class="label">CCU:</span>
+        <span class="value" id="ccuValue">Loading...</span>
+      </div>
+      <div id="followers" class="stat">
+        <span class="label">Followers:</span>
+        <span class="value" id="followersValue">Loading...</span>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <button id="rateButton">
+      <img src="star-icon.png" alt="Rate Icon"> Rate Us
+    </button>
+    <a href="https://ko-fi.com/abhitechgames" target="_blank">
+      <img src="kofi-icon.png" alt="Ko-fi Icon"> Support on Ko-fi
+    </a>
+    <p id="made-by">Made with ❤️ by AbhiTechGames</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
