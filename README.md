@@ -1,6 +1,6 @@
 # Steam Stats IQ
 
-[![chrome users](https://img.shields.io/chrome-web-store/users/EXTENSION_ID?label=chrome%20users&style=for-the-badge&logo=googlechrome)](https://chrome.google.com/webstore/detail/EXTENSION_ID)  
+[![chrome users](https://img.shields.io/chrome-web-store/users/pbhipeklokmcldebjabigdiklaeajiea?label=chrome%20users&style=for-the-badge&logo=googlechrome)](https://chrome.google.com/webstore/detail/EXTENSION_ID)  
 [![license](https://img.shields.io/badge/license-BSD--3--Clause-blue?style=for-the-badge)](LICENSE)
 
 **Steam Stats IQ** is an open-source Chrome extension that provides real-time insights into Steam game statistics. Designed for gamers, developers, and analysts, it delivers essential data to monitor and analyze Steam games effortlessly.
