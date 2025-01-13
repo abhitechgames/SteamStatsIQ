@@ -3,7 +3,7 @@ const STEAM_CCU_API_URL = "https://api.steampowered.com/ISteamUserStats/GetNumbe
 const GAMALYTIC_API_URL = "https://api.gamalytic.com/steam-games/stats?appids=";
 
 document.getElementById("rateButton").addEventListener("click", () => {
-  const extensionId = "EXTENSION_ID";
+  const extensionId = "pbhipeklokmcldebjabigdiklaeajiea";
   const reviewUrl = `https://chrome.google.com/webstore/detail/${extensionId}/reviews`;
   window.open(reviewUrl, "_blank");
 });
