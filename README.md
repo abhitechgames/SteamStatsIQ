@@ -57,7 +57,7 @@ Thank you for helping improve **Steam Stats IQ**! 🎉
 
 1. 📥 **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/steam-stats-iq.git
+   git clone https://github.com/abhitechgames/SteamStatsIQ.git
    ```
 2. 🌐 Load the Extension in Chrome:
     - 🧭 Navigate to chrome://extensions/ in your browser.
