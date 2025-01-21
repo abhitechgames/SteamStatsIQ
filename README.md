@@ -8,7 +8,7 @@
 <img src="https://github.com/user-attachments/assets/c4313fa7-0f02-42d1-9e1b-7b8f1d743ce6" alt="ss-1" style="width: 25%; height: auto;">
 
 
-## 🌟 Major Features
+## Major Features
 
 - 📊 **Real-Time Follower Counts**: View the number of followers for any Steam game.
 - 👥 **Concurrent User Data (CCU)**: Track how many players are active in real-time.
@@ -43,13 +43,13 @@ We welcome contributions to make **Steam Stats IQ** even better! Here's how you 
    - Click **New Pull Request** and select your branch.
    - Describe your changes in detail and submit the PR.
 
-### ✨ Contributions We’re Looking For
+### Contributions We’re Looking For
 - Bug fixes 🐞
 - New features 🚀
 - Code optimization ⚡
 - Localization 🌍
 
-Thank you for helping improve **Steam Stats IQ**! 🎉
+Thank you for helping improve **Steam Stats IQ**!
 
 <br>
 
