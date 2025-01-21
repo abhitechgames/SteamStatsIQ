@@ -75,7 +75,7 @@ The extension is now ready for development and testing!
 
 - 🛠️ **[Install Extension](https://chrome.google.com/webstore/detail/EXTENSION_ID)**: Add Steam Stats IQ from the Chrome Web Store.
 - ☕ **[Support Here](https://ko-fi.com/abhitechgames)**: Buy us a coffee on Ko-fi and support development.
-- 🗂️ **[GitHub Repository](https://github.com/your-repo/steam-stats-iq)**: Explore the source code and contribute to the project.
+- 🗂️ **[GitHub Repository](https://github.com/abhitechgames/steam-stats-iq)**: Explore the source code and contribute to the project.
 - 📜 **[BSD-3-Clause License](LICENSE)**: Read the license governing this project.
 
 <br>
